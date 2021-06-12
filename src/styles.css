@@ -1,21 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-
-$redPrimary: #ad1703;
-$greenSecondary: #09ad5d;
-$VeryDarkGrey: #151f2d;
-$DarkGrey: #1f2f44;
-$LightDarkGrey: #1f2f44;
-$Red: #862e2a;
-$Green: #2b6714;
-$LightGrey: #8e8c8c;
-
 html,
 .container-fluid,
 .container,
 .navbar,
 footer,
 body {
-  background-color: $VeryDarkGrey !important;
+  background-color: #151f2d !important;
 }
 
 html {
@@ -24,10 +14,12 @@ html {
   padding: 0;
   margin: 0;
 }
+
 body,
 a {
   font-family: "Montserrat", sans-serif;
 }
+
 h1,
 h2,
 label,
@@ -35,16 +27,18 @@ input,
 .col-form-label,
 .btn {
   font-family: "Special Elite", cursive;
-  color: $LightGrey;
+  color: #8e8c8c;
 }
 
 h3,
 h4,
 h5 {
   font-family: "Advent Pro", sans-serif;
-  color: $Red;
+  color: #862e2a;
 }
+
 footer {
   position: absolute;
   bottom: 0;
 }
+/*# sourceMappingURL=styles.css.map */

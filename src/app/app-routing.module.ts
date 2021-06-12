@@ -6,12 +6,12 @@ import { ResearchComponent } from './component/research/research.component';
 
 const routes: Routes = [
   {
-    path: '',
-    pathMatch: 'full',
+    path: 'login',
     component: LoginComponent,
   },
   {
-    path: 'research',
+    path: 'mission',
+    pathMatch: 'full',
     component: ResearchComponent,
   },
   {
