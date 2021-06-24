@@ -24,8 +24,7 @@ html {
   padding: 0;
   margin: 0;
 }
-body,
-a {
+body {
   font-family: "Montserrat", sans-serif;
 }
 h1,
@@ -37,7 +36,9 @@ input,
   font-family: "Special Elite", cursive;
   color: $LightGrey;
 }
-
+.nav-link {
+  color: $LightGrey !important;
+}
 h3,
 h4,
 h5 {
